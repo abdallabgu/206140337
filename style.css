@@ -1,0 +1,165 @@
+/* CSS for the menu bar */
+#navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-family: Montserrat, sans-serif;
+  }
+  
+  /* Style the links inside the menu bar */
+  #navbar a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  #navbar a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  /* Add an active class to the current link */
+  #navbar a.active {
+	background-color: #d3b000;
+	color: white;
+  }
+  
+
+  .session{
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+	}
+
+  #profile-pic {
+	width: 600px;
+	height: 600px;
+	border-radius: 80%;
+	overflow: hidden;
+  }
+  
+  #profile-pic img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  h2{
+	text-align: center;
+	color: #000000;
+	border-bottom: 1px solid #000000;
+	font-family: Montserrat, sans-serif;
+	font-size: 28px;
+  }
+
+  .paragraph{
+	font-family: Montserrat, sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+
+  }
+
+  .row {
+	display: flex;
+	padding: 0 4px;
+	flex-wrap: wrap;
+  }
+  
+  .column {
+	padding: 0 4px;
+	flex: 24%;
+	max-width: 25%;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+  }
+
+
+  .fb-like {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+  }
+
+
+  #contact {
+	text-align: center;
+  }
+  
+  #contact h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+  }
+  
+  #contact form {
+	display: inline-block;
+	text-align: left;
+	background-color: #f7f7f7;
+	border-radius: 5px;
+	padding: 2rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contact form label {
+	display: block;
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+  }
+  
+  #contact form input,
+  #contact form textarea {
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	border-radius: 3px;
+	box-sizing: border-box;
+  }
+  
+  #contact form textarea {
+	height: 10rem;
+  }
+  
+  #contact form button[type="submit"] {
+	background-color: #6a978d;
+	color: #fff;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 3px;
+	font-size: 1rem;
+	cursor: pointer;
+  }
+  
+  #contact form button[type="submit"]:hover {
+	background-color: #588270;
+  }
+  
+
+  table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 80%;
+  }
+  
+  td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+  }
+  
+  tr:nth-child() {
+	background-color: #dddddd;
+  }
+
+

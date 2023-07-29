@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+	
+<body>
+  <!-- Horizontal menu bar -->
+<div id="navbar">
+  <a class="active" href="#">Abdalla's Corner</a>
+  <a href="#about">About Me</a>
+  <a href="#photos">My Photos</a>
+  <a href="#playlist">My Playlist</a>
+  <a href="#like">Like</a>
+  <a href="#qrcoder">QR code</a>
+  <a href="#spa">Q&A</a></li>
+  <a href="#contact">Contact Me</a>
+</div>
+	
+</div>
+<div class="session">
+  <img id="profile-pic"  src="Images/mainPicture.jpg?raw=true" alt="Profile Picture">
+</div>
+
+<section id="about" class="section">
+<h2>About me</h2>
+<div class="session">
+  <p class="paragraph">
+    ******Welcome to my humble website, where I aim to share insights into my personal life.
+    My name is Abdalla Asaad, an Arab engineering student, an Israeli citizen, currently
+    residing in the picturesque village of Cana Of Galilee.
+    My university journey was filled with hardships and challenges in my personal life.
+    Despite facing numerous difficulties along the way, here I stand once again, stronger
+    and more determined than ever before! :)
+    <br/>
+    <br/>
+    My university journey has been arduous, but it has forged me into a warrior, unyielding in the pursuit of my dreams.
+    And as I share my story, I hope to inspire others to embrace their own battles, to defy the odds, and to emerge victorious in the face of life's tribulations.
+    Welcome, my dear friends, to my world. Let us embark on this extraordinary
+    adventure together, where triumph awaits those who dare to believe in themselves and
+    the power of their dreams.
+</p>
+</div>
+</section>
+
+<section id="photos" class="section">
+<h2>My photos</h2>
+<div class="row">
+  <div class="column"> 
+    <img src="Images/img4.jpg?raw=true" style="width:100%">
+    <img src="Images/img2.jpg?raw=true" style="width:100%">
+  </div>
+
+  <div class="column"> 
+    <img src="Images/img3.jpg?raw=true" style="width:100%">
+    <img src="Images/img1.jpg?raw=true" style="width:100%">
+  </div>
+
+  <div class="column"> 
+    <img src="Images/img5.jpg?raw=true" style="width:100%">
+    <img src="Images/img6.jpg?raw=true" style="width:100%">
+  </div>
+
+  <div class="column"> 
+    <img src="Images/img7.jpg?raw=true" style="width:100%">
+    <img src="Images/img8.jpg?raw=true" style="width:100%">
+  </div>
+</div>
+</section>
+
+<section id="playlist" class="section">
+  <h2>My playlist</h2>
+  <div class="session"> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLUaJcJdcPt_UC5GWYKDFV2Ikuldpz6yI7"YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  </div>
+</section>
+
+<section id="like" class="section">
+  <h2>Give me a like</h2>  
+  <div class="fb-like" style="display: block; margin: 0 auto; text-align: center;" data-href="https://web-development-environments-2023.github.io/206332348/" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+</section>
+
+<section id="qrcoder" class="section">
+  <h2>Scan my code</h2>
+    <img src="Images/QRcode.png?raw=true" alt="QR Code" style="display:block; margin:auto; width:20%;">
+</section>
+
+<section id="spa" class="section">
+  <h2>Q&A</h2>
+  <table>
+    <tr>
+      <th> </th>
+      <th>web1</th>
+      <th>web2</th>
+      <th>web3</th>
+    </tr>
+    <tr>
+      <th>Dynamic websites</th>
+      <td>It was all about static content, there was no interaction between the users</td>
+      <td>Engages in two-way communication between users through social networks, blogs, videos, content publications, etc.</td>
+      <td>There is no unequivocal definition, the internet and artificial intelligence provide content to the user according to the information collected on it</td>
+    </tr>
+    <tr>
+      <th>Interaction</th>
+      <td>was used for reading only</td>
+      <td>You can read and write to pages (for example, Wikipedia)</td>
+      <td>Contains personal content about users, contains protection of user content</td>
+    </tr>
+    <tr>
+      <th>Use</th>
+      <td>Used primarily to create company content for users</td>
+      <td>Used to create user content for other users and communications between users.</td>
+      <td>Building and using applications allows you to communicate with other users. Using applications for personal or company leverage.</td>
+    </tr>
+  </table>
+  
+  <div class="session">
+    <p class="paragraph">
+      <u> <b>The proposed use case for the Nike sports shop website includes three key features: </b> </u> <br/>
+      <b>Web1: </b> comprises a single page providing information about the store's operating hours and other relevant details.<br/>
+      <b>Web2: </b> offers multiple routes to access the shop's products and services, including links to the store's social media pages, blogs, and opportunities for customers to comment on and review products. <br/>
+      <b>Web3: </b> is designed to provide personalized product recommendations to customers by suggesting items that might be a good fit based on their browsing history and preferences. <br/>  
+    </p>
+  </div>
+
+<section id="contact" class="section">
+  <h2>Contact me</h2>
+  <h1>Send me an Email</h1>
+  <form method="post" action="mailto:asaada@post.bgu.ac.il">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="mail_address" placeholder="Email Address" required />
+    <textarea name="emailContent" rows="12" cols="35" id="body" placeholder="Type your Message"></textarea>
+    <select id="emojis" onchange="addEmoji()">
+      <option value="&#128525">&#128525</option>
+      <option value="&#128151">&#128151</option>
+      <option value="&#128523">&#128523</option>
+      <option value="&#128521">&#128521</option>
+      <option value="&#128078">&#128078</option>
+    </select>
+    <input type="submit" value="Send" />
+  </form>
+<br/>
+</section>
+
+
+
+</div>
+
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="rkPXZby9"></script>
+
+
+<script type="text/javascript">
+  function addEmoji() {
+    var emojis = document.getElementById("emojis");
+    var chosenEmoji = emojis.value;
+    var textBox = document.getElementById("body");
+    textBox.value += chosenEmoji;
+  }
+</script>
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
+
